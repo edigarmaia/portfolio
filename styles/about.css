@@ -17,3 +17,13 @@
 .about p a:hover{
     text-decoration: underline;
 }
+
+/*Responsividade*/
+@media(max-width: 1080px){
+    .about {
+        padding:  24px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+}

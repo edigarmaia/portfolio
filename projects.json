@@ -1,20 +1,32 @@
 [
     {
-      "name": "Projeto 1",
-      "image": "",
+      "name": "Dashboard Financeiro",
+      "image": "assets/dash_fin.png",
       "tags": ["abc", "", ""],
       "link": ""
     },
       {
       "name": "Projeto 2",
-      "image": "",
+      "image": "assets/dash_fin.png",
       "tags": ["", "", ""],
       "link": ""
     },
       {
       "name": "Projeto 3",
-      "image": "",
+      "image": "assets/dash_fin.png",
       "tags": ["", "", ""],
       "link": ""
-    }
+    },
+    {
+        "name": "Projeto 4",
+        "image": "assets/dash_fin.png",
+        "tags": ["", "", ""],
+        "link": ""
+      },
+      {
+        "name": "Projeto 5",
+        "image": "assets/dash_fin.png",
+        "tags": ["", "", ""],
+        "link": ""
+      }
   ]
