@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,21 @@
 
     <link rel="stylesheet" href="styles/global.css">
 
+    <!--Icones-->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Script AOS - Animações -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
+
 <body>
     <div class="app">
-        <section class="card user">
+        <section class="card user" 
+        data-aos="fade-right"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        >
             <picture>
                 <img src="./assets/edy.jfif" alt="minha foto">
             </picture>
@@ -37,7 +48,8 @@
                         <i class="ph ph-instagram-logo"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/profile.php?id=100009131513665" class="social__link" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100009131513665" class="social__link"
+                        target="_blank">
                         <i class="ph ph-facebook-logo"></i>
                     </a>
 
@@ -48,7 +60,11 @@
             </div>
         </section>
 
-        <section class="card about">
+        <section class="card about"
+        data-aos="fade-left"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        >
             <h2 class="subtitle">Sobre</h2>
             <p>Apaixonado por tecnologia e as
                 possibilidades que ela nos oferece, sou
@@ -57,18 +73,22 @@
                 Cruzeiro do Sul e tenho cursos
                 complementares na área de TI, como Python
                 e Power BI.</p>
-                <p>Apaixonado por tecnologia e as
-                    possibilidades que ela nos oferece, sou
-                    formado em Análise e Desenvolvimento de
-                    Sistemas em 2023 pela Universidade
-                    Cruzeiro do Sul e tenho cursos
-                    complementares na área de TI, como Python
-                    e Power BI.</p>
+            <p>Apaixonado por tecnologia e as
+                possibilidades que ela nos oferece, sou
+                formado em Análise e Desenvolvimento de
+                Sistemas em 2023 pela Universidade
+                Cruzeiro do Sul e tenho cursos
+                complementares na área de TI, como Python
+                e Power BI.</p>
 
-                <p>Sempre em busca de conhecimento e superar desafios</p>
+            <p>Sempre em busca de conhecimento e superar desafios</p>
         </section>
 
-        <section class="card projects">
+        <section class="card projects" 
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+        >
             <h2 class="subtitle">Projetos</h2>
 
             <div id="project__content">
@@ -78,5 +98,13 @@
         </section>
     </div>
     <script src="./scripts/index.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({ once: true })
+    </script>
+
 </body>
+
 </html>
