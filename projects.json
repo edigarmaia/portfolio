@@ -8,25 +8,25 @@
       {
       "name": "Projeto 2",
       "image": "assets/dash_fin.png",
-      "tags": ["", "", ""],
+      "tags": ["Python", "Django", "Pandas", "Power BI"],
       "link": ""
     },
       {
       "name": "Projeto 3",
       "image": "assets/dash_fin.png",
-      "tags": ["", "", ""],
+      "tags": ["Html", "CSS", "Javascript"],
       "link": ""
     },
     {
         "name": "Projeto 4",
         "image": "assets/dash_fin.png",
-        "tags": ["", "", ""],
+        "tags": ["Java", "SQL", "Spring"],
         "link": ""
       },
       {
         "name": "Projeto 5",
         "image": "assets/dash_fin.png",
-        "tags": ["", "", ""],
+        "tags": ["C#", ".Net", "MySql"],
         "link": ""
       }
   ]
